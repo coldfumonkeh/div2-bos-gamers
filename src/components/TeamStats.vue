@@ -48,7 +48,7 @@ export default {
         '97476967-4a4d-4841-8694-7df5cca12564', // RMDavis
         '37908b65-01d7-4f40-9608-b601fce2d9ae', // SJ Raw
         '4f666efb-0fca-49fe-95f0-9e4872d9ff4d', // Gx jOeLzZz Gx
-        '947e4a89-0554-4162-b022-2fa26af4cd51', // Little RY SE
+        // '947e4a89-0554-4162-b022-2fa26af4cd51', // Little RY SE
       ],
       gamerData: []
     }

@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <title>BoS Division 2 Gamer Stats</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>div2</title>
+    <link rel="shortcut icon" href="<%= BASE_URL %>favicon.png">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/bundle.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/hody-icons.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Source+Sans+Pro:300,400|Kaushan+Script|Lora|Playfair+Display:700" rel="stylesheet" type="text/css">
   </head>
+
   <body>
-    <noscript>
-      <strong>We're sorry but div2 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+      <noscript>
+        <strong>We're sorry but div2 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      </noscript>
+      
+    <!-- Preloader-->
+    <div id="loader">
+      <div class="centrize">
+        <div class="v-center">
+          <div id="mask">
+            <svg class="preloader-icon" width="34" height="38" viewbox="0 0 34 38">
+              <path class="preloader-path" stroke-dashoffset="0" d="M29.437 8.114L19.35 2.132c-1.473-.86-3.207-.86-4.68 0L4.153 8.114C2.68 8.974 1.5 10.56 1.5 12.28v11.964c0 1.718 1.22 3.306 2.69 4.165l10.404 5.98c1.47.86 3.362.86 4.834 0l9.97-5.98c1.472-.86 2.102-2.45 2.102-4.168V12.28c0-1.72-.59-3.306-2.063-4.166z"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <div id="wrapper">
+      
+      <div id="app"></div>
+      
+      <footer id="footer">
+        <div class="footer-copy">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <!--
+                <ul class="social-list">
+                  <li class="social-item-linkedin"><a target="_blank" href="#"><i class="hc-linkedin"></i></a>
+                  </li>
+                -->
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <div class="copy-text">
+                  <p>&copy; 2019 BoS. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="<%= BASE_URL %>js/jquery.js"></script>
+    <script type="text/javascript" src="<%= BASE_URL %>js/bundle.js"></script>
+    <script type="text/javascript" src="<%= BASE_URL %>js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="<%= BASE_URL %>js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
+    <script type="text/javascript" src="<%= BASE_URL %>js/main.js"></script>
   </body>
+
 </html>
